@@ -1,0 +1,23 @@
+{
+  "name": "learnjs",
+  "version": "0.0.1",
+  "description": "for learning javascript",
+  "main": "app.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-node": "^1.14.5",
+    "jasmine-spec-reporter": "^2.7.0"
+  },
+  "scripts": {
+    "test": "node jasmine-runner.js"
+  },
+  "keywords": [
+    "js",
+    "learn",
+    "basic"
+  ],
+  "author": "Nick Gao",
+  "license": "MIT"
+}
