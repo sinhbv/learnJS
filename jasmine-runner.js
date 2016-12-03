@@ -6,4 +6,4 @@ jrunner.configureDefaultReporter({print: 'noop'});
 jrunner.env.clearReporters();
 jrunner.addReporter(new SpecReporter());
 jrunner.loadConfigFile();
-jrunner.execute();
+jrunner.execute(); 
