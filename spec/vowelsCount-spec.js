@@ -1,6 +1,6 @@
 var {vowelsCount} = require('../questions/vowelsCount.js');
 
-describe('统计元音字母', function(){
+describe('统计给定的字符串中的元音被字母（a, e, i, o, u）的数量', function(){
     it('null值返回', function(){
         var count = vowelsCount(null);
         expect(count).toBe(0);
